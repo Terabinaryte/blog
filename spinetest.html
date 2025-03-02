@@ -1,0 +1,15 @@
+<html>
+    <script src="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/iife/spine-player.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/@esotericsoftware/spine-player@4.2.*/dist/spine-player.css">
+    
+    <div id="player-container" style="width: 100%; height: 100vh;"></div>
+    
+    <script>
+    new spine.SpinePlayer("player-container", {
+        alpha: true,
+        showControls: false,
+        skeleton: "./Sigewinne/c.json",
+        atlas: "./Sigewinne/c.atlas",
+    });
+    </script>
+</html>
